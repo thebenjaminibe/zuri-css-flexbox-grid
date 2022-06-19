@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a b c'
+    'd e e c'
+    ;
+    gap: 20px;
+}
+main div{
+    padding: 2em;
+    text-align: center;
+    border-radius: 10px;
+}
+.item-a{
+    background-color: blueviolet;
+    grid-area: a;
+}
+.item-b{
+    background-color: gray;
+    grid-area: b;
+}
+.item-c{
+    background-color: white;
+    grid-area: c;
+}
+.item-d{
+    background-color: white;
+    grid-area: d;
+}
+.item-e{
+    background-color: rgb(54, 52, 52);
+    grid-area: e;
+}
