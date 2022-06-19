@@ -4,6 +4,9 @@
 }
 body{
     background-color: aliceblue;
+    display: flex;
+    place-items: center;
+    height: 100vh;
 }
 main{
     display: grid;
@@ -11,12 +14,14 @@ main{
     'a a b c'
     'd e e c'
     ;
-    gap: 20px;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
 }
 main div{
     padding: 2em;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .item-a{
     background-color: blueviolet;
