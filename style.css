@@ -15,23 +15,23 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .top-content{
-    background-color: white;
+    background-color: hsl(31, 77%, 52%);
     padding: 2em;
-    width: 100%;
+    width: auto;
 }
 .top-content h3{
-    color: aqua;
+    color: white;
     font-size: 20px;
     padding-bottom: 10px;
     font-size: bold;
 }
 .top-content .p-top{
     font-weight: bold;
-    color: rgb(108, 124, 15);
+    color: rgb(246, 247, 243);
     font-size: 15px;
     padding-bottom: 10px;
 }
@@ -40,12 +40,14 @@ main{
     width: 100%;
 }
 .botton-content .top-bottom{
-    background-color: rgb(11, 146, 146);
+    background-color: hsl(184, 100%, 22%);
     padding: 2em;
     width: 100%;
+    color: white;
 }
 .botton-content .second-bottom{
-    background-color: rgb(94, 233, 233);
+    background-color: hsl(179, 100%, 13%);
     padding: 2em;
     width: 100%;
+    color: white;
 }
